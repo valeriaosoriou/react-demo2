@@ -1,0 +1,47 @@
+body{
+  background: #4287f5;
+  color:white;
+}
+
+.container{
+  width:80%;
+  margin:auto;
+  padding: 50px;
+  /* background: black; */
+}
+.header{
+  width:70%;
+  /* height:80px; */
+  margin:auto;
+  padding: 30px;
+  background: #066a75;
+
+}
+.header:after{
+  clear:both;
+  display:table;
+  content:"";
+}
+.h1{
+  width: 60%;
+  float:left;
+
+}
+.buttons{
+  width:40%;
+  float:left;
+  display:block;
+  margin-top: 35px;
+  text-align: right;
+
+
+}
+.home, .about{
+  font-size: 20px;
+  color: white;
+  background: none;
+  border:none;
+}
+.home:hover, .about:hover{
+  color: black;
+}
