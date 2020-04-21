@@ -1,20 +1,21 @@
 body{
-  background: #4287f5;
-  color:white;
+  background: black;
+  color:rgb(4, 4, 4);
 }
 
 .container{
-  width:80%;
+  width:90%;
   margin:auto;
   padding: 50px;
   /* background: black; */
 }
 .header{
-  width:70%;
-  /* height:80px; */
+  width:100%;
+  height:200px;
   margin:auto;
   padding: 30px;
-  background: #066a75;
+  border-radius: 0px 0px 80px 0px;
+  background: #32b8c7f7;
 
 }
 .header:after{
@@ -23,15 +24,16 @@ body{
   content:"";
 }
 .h1{
-  width: 60%;
+  width: 100%;
   float:left;
+  font-family: 'Courier New', Courier, monospace;
 
 }
 .buttons{
-  width:40%;
+  width:95%;
   float:left;
   display:block;
-  margin-top: 35px;
+  margin-top: 50px;
   text-align: right;
 
 
@@ -39,6 +41,7 @@ body{
 .home, .about{
   font-size: 20px;
   color: white;
+  font-family: 'Courier New', Courier, monospace;
   background: none;
   border:none;
 }
